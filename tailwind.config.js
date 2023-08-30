@@ -12,6 +12,7 @@ module.exports = {
       },
       maxWidth: {
         "8xl": "100rem",
+        "1920": "1440px"
       },
       screens: {
         "2xsmall": "320px",
@@ -34,6 +35,11 @@ module.exports = {
           "sans-serif",
         ],
       },
+      colors: {
+        "main-bg": "#1D1B26",
+        "services-bg": "#181621",
+        "button-primary": "#028AF6"
+      }
     },
   },
   plugins: [],
