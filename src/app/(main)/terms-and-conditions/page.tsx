@@ -1,4 +1,5 @@
 import { Metadata } from "next"
+import TermsAndConditionsTemplate from "@modules/terms-and-conditions"
 
 export const metadata: Metadata = {
   title: "Terms & Conditions",
@@ -6,5 +7,5 @@ export const metadata: Metadata = {
 }
 
 export default function TermsAndConditionsPage() {
-  return <div>Terms & Conditions</div>
+  return <TermsAndConditionsTemplate />
 }
