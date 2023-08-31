@@ -30,16 +30,16 @@ const DropdownMenu = () => {
         <Link href="/" className="" passHref>
           Home
         </Link>
-        <Link href="/" className="" passHref>
-          Downloads
+        <Link href="/store" className="" passHref>
+          Store
         </Link>
-        <Link href="/" className="" passHref>
+        <Link href="/about" className="" passHref>
           About Us
         </Link>
-        <Link href="/" className="" passHref>
-          Blogs
+        <Link href="/blog" className="" passHref>
+          Blog
         </Link>
-        <Link href="/" className="" passHref>
+        <Link href="/faq" className="" passHref>
           FAQs
         </Link>
       </div>

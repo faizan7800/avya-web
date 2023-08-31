@@ -38,7 +38,8 @@ module.exports = {
       colors: {
         "main-bg": "#1D1B26",
         "services-bg": "#181621",
-        "button-primary": "#028AF6"
+        "button-primary": "#028AF6",
+        "button-secondary": "#E3B130"
       }
     },
   },

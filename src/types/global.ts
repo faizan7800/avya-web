@@ -1,3 +1,4 @@
+import { Product } from "@medusajs/medusa"
 import { PricedProduct } from "@medusajs/medusa/dist/types/pricing"
 import { NextPage } from "next"
 import { AppProps } from "next/app"
@@ -59,6 +60,8 @@ export type ProductPreviewType = {
     difference: string
     price_type: "default" | "sale"
   }
+  variantId: string | null
+  quantity: 1
 }
 
 export type InfiniteProductPage = {

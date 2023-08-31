@@ -19,6 +19,7 @@ const FeaturedProducts = () => {
           {data
             ? data.map((product) => (
                 <li key={product.id}>
+                  {console.log("Product", product)}
                   <ProductPreview {...product} />
                 </li>
               ))
