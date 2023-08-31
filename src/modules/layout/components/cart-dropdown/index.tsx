@@ -8,6 +8,7 @@ import LineItemPrice from "@modules/common/components/line-item-price"
 import Trash from "@modules/common/icons/trash"
 import Thumbnail from "@modules/products/components/thumbnail"
 import { formatAmount, useCart } from "medusa-react"
+import Image from "next/image"
 import Link from "next/link"
 import { Fragment } from "react"
 
@@ -20,8 +21,14 @@ const CartDropdown = () => {
   return (
     <div className="h-full z-50" onMouseEnter={open} onMouseLeave={close}>
       <Popover className="relative h-full">
-        <Popover.Button className="h-full">
+        <Popover.Button className="h-full flex flex-row justify-center items-center space-x-2">
           <Link href="/cart">{`Cart (${totalItems})`}</Link>
+          <Image
+            src="/header/cart-icon.svg"
+            alt="cart icon"
+            width={22}
+            height={20}
+          />
         </Popover.Button>
         <Transition
           show={state}
