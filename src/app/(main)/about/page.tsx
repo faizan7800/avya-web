@@ -1,10 +1,12 @@
 import { Metadata } from "next"
+import About from "@modules/about"
 
 export const metadata: Metadata = {
   title: "About Us",
-  description: "About Us page of the company",
+  description: "About Us",
 }
 
 export default function AboutPage() {
-  return <div>Hello World</div>
+  return <About />
 }
+
