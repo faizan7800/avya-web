@@ -2,7 +2,7 @@ import Image from "next/image"
 
 const HomeAbout = () => {
   return (
-    <div className="flex flex-row justify-start max-w-1920 m-auto space-x-32">
+    <div className="flex flex-row justify-start max-w-1920 m-auto space-x-32 mb-24">
       <h5 className=" text-4xl w-1/3">
         Praesent eu dolor eu orci vehicula euismod. Vivamus
       </h5>

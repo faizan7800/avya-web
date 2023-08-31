@@ -19,7 +19,7 @@ const Item = ({ item, region }: ItemProps) => {
       <div className="w-[122px]">
         <Thumbnail thumbnail={item.thumbnail} size="full" />
       </div>
-      <div className="text-base-regular flex flex-col gap-y-8">
+      <div className="text-base-regular flex flex-col gap-y-8 text-black">
         <div className="flex items-start justify-between">
           <div className="flex flex-col">
             <span>{item.title}</span>

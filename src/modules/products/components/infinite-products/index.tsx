@@ -54,6 +54,9 @@ const InfiniteProducts = ({ params }: InfiniteProductsType) => {
 
   return (
     <div className="flex-1 content-container">
+      <div className="flex flex-row items-center justify-center w-full my-24">
+        <h1 className=" text-6xl font-bold">Our Collections</h1>
+      </div>
       <ul className="grid grid-cols-2 small:grid-cols-3 medium:grid-cols-4 gap-x-4 gap-y-8 flex-1">
         {previews.map((p) => (
           <li key={p.id}>

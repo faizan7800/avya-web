@@ -28,16 +28,16 @@ const ProductTabs = ({ product }: ProductTabsProps) => {
   return (
     <div>
       <Tab.Group>
-        <Tab.List className="border-b border-gray-200 box-border grid grid-cols-2">
+        <Tab.List className="border-b border-black box-border grid grid-cols-2">
           {tabs.map((tab, i) => {
             return (
               <Tab
                 key={i}
                 className={({ selected }) =>
                   clsx(
-                    "text-left uppercase text-small-regular pb-2 -mb-px border-b border-gray-200 transition-color duration-150 ease-in-out",
+                    "text-left uppercase text-small-regular pb-2 -mb-px transition-color duration-150 ease-in-out",
                     {
-                      "border-b border-gray-900": selected,
+                      "border-b border-gray-200": selected,
                     }
                   )
                 }
