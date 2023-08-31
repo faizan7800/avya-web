@@ -56,7 +56,7 @@ const FAQPage = () => {
         </p>
       </div>
 
-      <div className="border-2 border-white w-3/5 m-auto p-8 my-4">
+      <div className="border-2 border-white w-3/5 m-auto p-8 my-4 mb-20">
         <p className="text-xl mb-4">
           Are there different workout durations available, such as shorter or
           longer sessions?
