@@ -3,11 +3,11 @@
 const CancellationPolicy = () => {
   return (
     <div className="">
-      <div className="text-3xl flex justify-center  bg-[#707070] text-[40px] py-10 font-bold">
+      <div className="text-2xl py-2 flex justify-center  bg-[#707070] lg:text-[40px] lg:py-10 font-bold">
         Cancellation Policy
       </div>
 
-      <div className=" max-w-1920 m-auto px-48 my-20">
+      <div className="mx-2 my-8 lg:max-w-1920 lg:m-auto lg:px-48 lg:my-20">
         <p>
           We understand that circumstances may arise where you need to cancel or
           modify your order or subscription with FitnessTribe. We strive to
