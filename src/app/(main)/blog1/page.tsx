@@ -5,6 +5,7 @@ const page = () => {
         <div>
           <img className="w-full h-auto" src="blog/blog_231.jpg" alt="" />
         </div>
+        
         <div className="mx-2 my-4 lg:max-w-1920 lg:m-auto lg:my-20">
           <div className="text-center">
             <p className="lg:px-48 m-1 text-xl ">
