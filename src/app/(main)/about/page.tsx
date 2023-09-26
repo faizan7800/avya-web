@@ -14,11 +14,9 @@ export default function AboutPage() {
     <>
       <div className="bg-white">
         <About />
-        <Bitcoin />
-        <BottomSection />
-        <div className="pb-12">
-          <FeaturedClasses />
-        </div>
+        {/* <Bitcoin /> */}
+        {/* <BottomSection /> */}
+        <div className="pb-12">{/* <FeaturedClasses /> */}</div>
       </div>
     </>
   )
