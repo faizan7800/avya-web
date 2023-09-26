@@ -44,8 +44,9 @@ const Nav = () => {
   const { toggle } = useMobileMenu()
 
   return (
+    <div className="bg-white">
     <div
-      className={clsx("sticky top-0 inset-x-0 z-50 group bg-main-bg", {
+      className={clsx("sticky top-0 inset-x-0 z-50 group bg-[#173300]", {
         "!fixed": isHome,
       })}
     >
@@ -56,7 +57,7 @@ const Nav = () => {
       >
         <nav
           className={clsx(
-            "text-gray-900 flex items-center justify-between w-full h-full text-small-regular"
+            "bg-[#173300] text-gray-900 flex items-center justify-between w-full h-full text-small-regular"
           )}
         >
           <div className="flex items-center h-full flex-1">
@@ -84,6 +85,7 @@ const Nav = () => {
         </nav>
         <MobileMenu />
       </header>
+    </div>
     </div>
   )
 }

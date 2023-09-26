@@ -1,7 +1,7 @@
-import FeaturedProducts from "@modules/home/components/featured-products"
+import FeaturedClasses from "@modules/home/components/featured-classes"
 import Hero from "@modules/home/components/hero"
-import Services from "@modules/home/components/services"
-import HomeAbout from "@modules/home/components/home-about"
+import SecondHero from "@modules/home/components/hero-2"
+import HomeRating from "@modules/home/components/home_rating"
 import { Metadata } from "next"
 
 export const metadata: Metadata = {
@@ -13,10 +13,13 @@ export const metadata: Metadata = {
 const Home = () => {
   return (
     <>
+    <div className="bg-white">
       <Hero />
-      <Services />
-      <FeaturedProducts />
-      <HomeAbout />
+      <FeaturedClasses />
+      <SecondHero />
+      <HomeRating />
+      {/* <HomeAbout /> */}
+    </div>
     </>
   )
 }

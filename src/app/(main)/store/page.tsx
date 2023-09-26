@@ -7,5 +7,11 @@ export const metadata: Metadata = {
 }
 
 export default function StorePage() {
-  return <StoreTemplate />
+  return(
+    <>
+    <div className="bg-white">
+     <StoreTemplate />
+     </div>
+    </>
+  )
 }

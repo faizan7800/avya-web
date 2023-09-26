@@ -2,12 +2,12 @@
 
 const CancellationPolicy = () => {
   return (
-    <div className="">
-      <div className="text-2xl py-2 flex justify-center  bg-[#707070] lg:text-[40px] lg:py-10 font-bold">
+    <div className="bg-white">
+      <div className="text-black text-2xl py-2 flex justify-center  bg-[#F9F9F9] lg:text-[40px] lg:py-10 font-bold">
         Cancellation Policy
       </div>
 
-      <div className="mx-2 my-8 lg:max-w-1920 lg:m-auto lg:px-48 lg:my-20">
+      <div className="text-black mx-2 py-8 lg:max-w-1920 lg:m-auto lg:px-48 lg:py-20">
         <p>
           We understand that circumstances may arise where you need to cancel or
           modify your order or subscription with FitnessTribe. We strive to
@@ -15,9 +15,9 @@ const CancellationPolicy = () => {
           needs. Please review the following guidelines regarding cancellations:
         </p>
 
-        <div className=" mt-4">
+        <div className="text-black  mt-4">
           <p>1. Order Cancellation</p>
-          <p>
+          <p className="text-black ">
             If you need to cancel an order for a product or service, please
             contact our customer support team at [email address] as soon as
             possible. We will make every effort to accommodate your request, but
@@ -27,8 +27,8 @@ const CancellationPolicy = () => {
         </div>
 
         <div>
-          <p>2. Subscription Cancellation</p>
-          <p>
+          <p className="text-black ">2. Subscription Cancellation</p>
+          <p className="text-black ">
             If you wish to cancel your subscription with FitnessTribe, please
             follow the cancellation instructions provided within your account
             settings or contact our customer support team for assistance. Please
@@ -39,8 +39,8 @@ const CancellationPolicy = () => {
         </div>
 
         <div>
-          <p>3. Refunds for Cancellations</p>
-          <p>
+          <p className="text-black ">3. Refunds for Cancellations</p>
+          <p className="text-black ">
             If you cancel an order or subscription that is eligible for a
             refund, we will process the refund according to our refund policy.
             Please refer to our refund policy or contact our customer support
@@ -50,8 +50,8 @@ const CancellationPolicy = () => {
         </div>
 
         <div>
-          <p>4. Non-Cancelable Services</p>
-          <p>
+          <p className="text-black ">4. Non-Cancelable Services</p>
+          <p className="text-black ">
             Certain services or products may be non-cancelable or subject to
             specific cancellation terms due to their nature or customization.
             These services will be clearly indicated during the purchase or
@@ -61,16 +61,16 @@ const CancellationPolicy = () => {
         </div>
 
         <div>
-          <p>5. Customer Support</p>
-          <p>
+          <p className="text-black ">5. Customer Support</p>
+          <p className="text-black ">
             If you have any questions or need assistance with the cancellation
             process, please contact our customer support team at [email
             address]. We are here to help and provide the necessary guidance.
           </p>
         </div>
 
-        <div className=" mt-4">
-          <p>
+        <div className="text-black  mt-4">
+          <p className="text-black ">
             Please note that this cancellation policy applies specifically to
             FitnessTribe orders and subscriptions. For any other inquiries or
             requests, please refer to the relevant sections on our website or
@@ -78,18 +78,18 @@ const CancellationPolicy = () => {
           </p>
         </div>
 
-        <div className=" mt-4">
-          <p>
+        <div className="text-black  mt-4">
+          <p className="text-black ">
             We reserve the right to update or modify this cancellation policy at
             any time without prior notice. Please review the cancellation policy
             periodically for any changes.
           </p>
         </div>
 
-        <p className=" mt-4"> Last updated: [date]</p>
+        <p className="text-black  mt-4"> Last updated: [date]</p>
 
-        <div className=" mt-4">
-          <p>
+        <div className="text-black  mt-4">
+          <p className="text-black ">
             By placing an order or subscribing to FitnessTribe services, you
             acknowledge and agree to the terms and conditions of this
             cancellation policy.
