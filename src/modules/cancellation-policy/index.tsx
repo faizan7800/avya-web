@@ -3,7 +3,7 @@
 const CancellationPolicy = () => {
   return (
     <div className="bg-white">
-      <div className="text-black text-2xl py-2 flex justify-center  bg-[#FBF2EB] lg:text-[40px] lg:py-10 font-bold">
+      <div className="text-black text-2xl py-2 flex justify-center  bg-[#EEF7F2] lg:text-[40px] lg:py-10 font-bold">
         Cancellation Policy
       </div>
 

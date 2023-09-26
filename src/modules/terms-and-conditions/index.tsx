@@ -3,7 +3,7 @@
 const TermsAndConditionsTemplate = () => {
   return (
     <div className="bg-white">
-      <div className="text-black text-2xl flex py-2 justify-center bg-[#FBF2EB] lg:text-[40px] lg:py-10 ">
+      <div className="text-black text-2xl flex py-2 justify-center bg-[#EEF7F2] lg:text-[40px] lg:py-10 ">
         Terms & Conditions
       </div>
 

@@ -11,7 +11,7 @@ import Link from "next/link"
 import { usePathname } from "next/navigation"
 import Image from "next/image"
 import { useEffect, useState } from "react"
-import icon from "../../../../../public/header/icon_227.svg"
+import icon from "../../../../../public/header/icon_231.svg"
 
 const Nav = () => {
   const pathname = usePathname()
@@ -45,7 +45,7 @@ const Nav = () => {
 
   return (
     <div className="bg-white">
-      <div className="bg-[#E7C484]"><p className="text-white text-center">ris orci dignissim nisl, id </p></div>
+      <div className="bg-[#222222]"><p className="text-white text-center">ris orci dignissim nisl, id </p></div>
     <div
       className={clsx("sticky top-0 inset-x-0 z-50 group bg-white", {
         "!fixed": isHome,

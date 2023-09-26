@@ -2,8 +2,9 @@
 
 const FAQPage = () => {
   return (
-    <div className=" bg-white">
-      <div className=" bg-[#FBF2EB] text-black text-2xl py-2 font-bold flex justify-center lg:text-[40px] lg:py-10 ">
+    <>
+    <div className=" bg-[#EEF7F2]">
+      <div className=" bg-[#EEF7F2] text-black text-2xl py-2 flex justify-center lg:text-[40px] lg:py-10 ">
         Frequently Asked Questions
       </div>
 <div className="lg:max-w-1920 lg:m-auto">
@@ -73,6 +74,8 @@ const FAQPage = () => {
           </p>
         </div>
       </div>
+      </div>
+    </div>
       <div className="lg:flex lg:justify-center bg-white xl:py-16">
       <div className="mx-8 xl:mx-16 flex lg:flex-none justify-center space-x-12 lg:space-x-24">
         <div className="">
@@ -95,8 +98,7 @@ const FAQPage = () => {
         </div>
       </div>
       </div>
-      </div>
-    </div>
+      </>
   )
 }
 
