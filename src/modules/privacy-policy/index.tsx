@@ -2,12 +2,12 @@
 
 const PrivacyPolicy = () => {
   return (
-    <div className="">
-      <div className="text-2xl py-2 flex justify-center font-bold bg-[#707070] lg:text-[40px] lg:py-10">
+    <div className="bg-white">
+      <div className="text-black text-2xl py-2 flex justify-center font-bold bg-[#FBF2EB] lg:text-[40px] lg:py-10">
         Privacy Policy
       </div>
 
-      <div className="mx-2 my-8 lg:max-w-1920 lg:m-auto lg:px-48 lg:my-20">
+      <div className="mx-2 text-black my-8 lg:max-w-1920 lg:m-auto lg:py-20 bg-white text-center 2xl:max-w-1920 2xl:m-auto">
         <p>Effective Date: [Date]</p>
 
         <p className="mt-4">

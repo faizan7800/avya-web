@@ -2,22 +2,20 @@ import Link from "next/link"
 
 const Blog = () => {
   return (
-    // <>
+    <>
+    <div className="bg-white">
+    <div className="text-black text-2xl py-2 flex justify-center  bg-[#FBF2EB] lg:text-[40px] lg:py-10 ">
+        Our Blog
+      </div>
       <div
-        className=" text-black bg-white pb-6 font-poppins
-             w-[100%] h-auto grid justify-items-center "
-      >
-        <div className="text-2xl text-center py-2 h-28 w-[100%] flex font-poppins justify-center bg-[#F9F9F9] lg:text-[40px] lg:py-10">
-          Downlaod
-        </div>
-        <h1 className=" text-3xl text-center h-10 w-[100%] grid justify-items-center mt-4 items-center font-poppins ">
-          See our Latest Blog
-        </h1>
+        className="bg-white text-black bg-white pb-6 lg:py-16 font-poppins
+            2xl:max-w-1920 2xl:mx-auto h-auto grid justify-items-center ">
+        
         <div className="grid grid-col-1  gap-4 p-2 md:grid-cols-2 justify-items-center items-center md:w-[70%] ">
           <div className="mt-2">
             <Link href="blog1">
               <img
-                src="blog/blog_img1.jpg"
+                src="blog/blog_227.jpg"
                 height={307}
                 width={706}
                 alt="stoke1"
@@ -31,7 +29,7 @@ const Blog = () => {
           <div className="mt-2">
             <Link href="blog2">
               <img
-                src="blog/blog_img2.jpg"
+                src="blog/blog2_227.jpg"
                 height={307}
                 width={706}
                 alt="stoke2"
@@ -44,7 +42,8 @@ const Blog = () => {
           </div>
         </div>
       </div>
-    // </>
+      </div>
+     </> 
   )
 }
 export default Blog

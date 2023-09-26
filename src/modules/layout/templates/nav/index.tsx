@@ -11,7 +11,7 @@ import Link from "next/link"
 import { usePathname } from "next/navigation"
 import Image from "next/image"
 import { useEffect, useState } from "react"
-import icon from "../../../../../public/header/icon.svg"
+import icon from "../../../../../public/header/icon_227.svg"
 
 const Nav = () => {
   const pathname = usePathname()
@@ -45,8 +45,9 @@ const Nav = () => {
 
   return (
     <div className="bg-white">
+      <div className="bg-[#E7C484]"><p className="text-white text-center">ris orci dignissim nisl, id </p></div>
     <div
-      className={clsx("sticky top-0 inset-x-0 z-50 group bg-[#173300]", {
+      className={clsx("sticky top-0 inset-x-0 z-50 group bg-white", {
         "!fixed": isHome,
       })}
     >
@@ -57,7 +58,7 @@ const Nav = () => {
       >
         <nav
           className={clsx(
-            "bg-[#173300] text-gray-900 flex items-center justify-between w-full h-full text-small-regular"
+            "bg-white text-black flex items-center justify-between w-full h-full text-small-regular"
           )}
         >
           <div className="flex items-center h-full flex-1">
@@ -66,7 +67,7 @@ const Nav = () => {
             </Link>
           </div>
 
-          <div className="h-full flex items-center justify-center text-white flex-1">
+          <div className="h-full flex items-center justify-center text-black flex-1">
             <div className="block small:hidden">
               <Hamburger setOpen={toggle} />
             </div>
@@ -75,7 +76,7 @@ const Nav = () => {
             </div>
           </div>
 
-          <div className="flex items-center gap-x-6 h-full justify-end text-white flex-1">
+          <div className="flex items-center gap-x-6 h-full justify-end text-black flex-1">
             {/* <div className="hidden small:flex items-center gap-x-6 h-full">
               {process.env.FEATURE_SEARCH_ENABLED && <DesktopSearchModal />}
               <Link href="/account">Account</Link>

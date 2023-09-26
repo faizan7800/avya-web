@@ -3,7 +3,7 @@ const page = () => {
       <>
         <div className=" bg-white text-black pb-6 font-poppins">
           <div>
-            <img src="blog/blog_img2.jpg" height={598} width={1920} alt="" />
+            <img className="w-full h-auto" src="blog/blog2_227.jpg" alt="" />
           </div>
           <div className="mx-2 my-4 lg:max-w-1920 lg:m-auto lg:my-20">
             <div className="text-center">

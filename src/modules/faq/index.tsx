@@ -3,7 +3,7 @@
 const FAQPage = () => {
   return (
     <div className=" bg-white">
-      <div className=" bg-[#F9F9F9] text-black text-2xl py-2 font-bold flex justify-center lg:text-[40px] lg:py-10 ">
+      <div className=" bg-[#FBF2EB] text-black text-2xl py-2 font-bold flex justify-center lg:text-[40px] lg:py-10 ">
         Frequently Asked Questions
       </div>
 <div className="lg:max-w-1920 lg:m-auto">

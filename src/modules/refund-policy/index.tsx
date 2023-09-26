@@ -3,8 +3,8 @@
 const RefundPolicy = () => {
   return (
     <div className="bg-white">
-      <div className="text-black text-2xl py-2 font-bold flex justify-center  bg-[#F9F9F9] lg:text-[40px] lg:py-10 ">
-        Refund and Policy
+      <div className="text-black text-2xl py-2 flex justify-center  bg-[#FBF2EB] lg:text-[40px] lg:py-10 ">
+        Refund Policy
       </div>
 
       <div className="mx-2 py-8 lg:max-w-1920 lg:m-auto lg:py-20">
